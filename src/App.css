@@ -1,0 +1,53 @@
+
+* {
+  margin:0; padding:0;
+  line-height:1.5;
+  font-size:1em;
+  letter-spacing: -0.02em;
+  box-sizing: border-box;
+  list-style:none;
+}
+#root {
+  max-width:420px; 
+  min-width:320px; 
+  margin:50px auto;
+  background-color: #f9f9f9; padding:15px;
+  height:80vh;
+}
+#root nav {width:50px;}
+#root nav img {width:100%;}
+#root .login_msg {font-size:0.875em; margin:0 0 20px;}
+#root h2 {
+  border-bottom:1px solid #aaa;
+  margin:0 0 20px;
+}
+#root .login_msg2 {
+  text-align: center;
+  font-size:0.91rem; 
+}
+#root .login_msg2+a {
+  background:#00d564; color:#fff;
+  width:140px; height:38px;
+  display:block; margin:30px auto;
+  font-size:0.91rem; font-weight:600;
+  line-height:38px; text-align: center;
+}
+#root input {
+  display:block;
+  border:0;
+  font-size:0.91rem; width:100%;
+  padding:8px 10px;
+  margin:0 0 5px;
+  outline:none;
+}
+#root input::placeholder {color:#bbb;}
+#root button {
+  background:#00d564; color:#fff;
+  width:140px; height:38px;
+  display:block; margin:30px auto;
+  font-size:0.91rem; font-weight:600;
+  text-align: center;
+  border:0;
+}
+#root .webtoon {width:150px; margin:0 auto;}
+#root .webtoon img {width:100%;}
